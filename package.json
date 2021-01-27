@@ -39,6 +39,11 @@
         "size": "size-limit",
         "analyze": "size-limit --why"
     },
+    "husky": {
+        "hooks": {
+            "pre-commit": "tsdx lint"
+        }
+    },
     "size-limit": [
         {
             "path": "dist/react-library-starter.cjs.production.min.js",
