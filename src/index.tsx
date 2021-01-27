@@ -1,6 +1,7 @@
-import * as React from "react"
+import React from "react"
 
-// Delete me maybe?
-export const Thing = () => {
-    return <div>the snozzberries taste like snozzberries</div>
+const Component = () => {
+    return <p>⚛ react library starter</p>
 }
+
+export default Component
