@@ -39,21 +39,6 @@
         "size": "size-limit",
         "analyze": "size-limit --why"
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "tsdx lint"
-        }
-    },
-    "size-limit": [
-        {
-            "path": "dist/react-library-starter.cjs.production.min.js",
-            "limit": "10 KB"
-        },
-        {
-            "path": "dist/react-library-starter.esm.js",
-            "limit": "10 KB"
-        }
-    ],
     "dependencies": {},
     "devDependencies": {
         "@bradgarropy/eslint-config": "^1.1.0",
