@@ -1,6 +1,6 @@
 import * as React from "react"
 
-// Delete me
+// Delete me maybe?
 export const Thing = () => {
     return <div>the snozzberries taste like snozzberries</div>
 }
