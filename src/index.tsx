@@ -1,6 +1,6 @@
-import React from "react"
+import React, {FC} from "react"
 
-const Component = () => {
+const Component: FC = () => {
     return <p>⚛ react library starter</p>
 }
 
