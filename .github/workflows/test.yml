@@ -1,12 +1,10 @@
-name: "🚀 release"
+name: "🧪 test"
 
-on:
-    release:
-        types: [published]
+on: pull_request
 
 jobs:
-    release:
-        name: "🚀 release"
+    test:
+        name: "🧪 test"
         runs-on: ubuntu-latest
         steps:
             - name: "📚 checkout"
@@ -18,7 +16,5 @@ jobs:
                   registry-url: https://registry.npmjs.org/
             - name: "📦 install"
               run: npm install
-            - name: "🚀 publish"
-              run: npm publish --access public
-              env:
-                  NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+            - name: "🧪 test"
+              run: npm run test
