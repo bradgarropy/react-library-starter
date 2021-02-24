@@ -36,9 +36,9 @@
         "build": "tsdx build",
         "test": "tsdx test --passWithNoTests",
         "lint": "tsdx lint",
+        "contributors": "all-contributors generate",
         "prepare": "tsdx build"
     },
-    "dependencies": {},
     "devDependencies": {
         "@bradgarropy/eslint-config": "^1.1.0",
         "@bradgarropy/eslint-config-react": "^1.0.0",
@@ -47,6 +47,7 @@
         "@types/react-dom": "^17.0.0",
         "@typescript-eslint/eslint-plugin": "^4.14.1",
         "@typescript-eslint/parser": "^4.14.1",
+        "all-contributors-cli": "^6.20.0",
         "babel-eslint": "^10.1.0",
         "eslint": "^7.18.0",
         "eslint-config-prettier": "^7.2.0",
