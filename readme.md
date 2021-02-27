@@ -1,5 +1,6 @@
 # ⚛ react library starter
 
+[![contributing][contributing-badge]][contributing]
 [![contributors][contributors-badge]][contributors]
 
 _Starter for `react` libraries._
@@ -20,5 +21,7 @@ _Starter for `react` libraries._
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+[contributing]: https://github.com/bradgarropy/react-library-starter/blob/master/contributing.md
 [contributors]: #-contributors
+[contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
 [contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/react-library-starter?style=flat-square
