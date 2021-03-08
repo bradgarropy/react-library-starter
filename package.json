@@ -6,7 +6,6 @@
         "javascript",
         "typescript",
         "react",
-        "tsdx",
         "eslint",
         "prettier",
         "starter"
