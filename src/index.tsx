@@ -1,7 +1,11 @@
 import React, {FC} from "react"
 
-const Component: FC = () => {
-    return <p>⚛ react library starter</p>
+type ComponentProps = {
+    name: string
+}
+
+const Component: FC<ComponentProps> = ({name = "⚛ react library starter"}) => {
+    return <p>{name}</p>
 }
 
 export default Component
