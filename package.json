@@ -45,6 +45,7 @@
         "@bradgarropy/eslint-config": "^1.1.0",
         "@bradgarropy/eslint-config-react": "^1.0.0",
         "@bradgarropy/eslint-config-typescript": "^1.0.0",
+        "@testing-library/jest-dom": "^5.11.10",
         "@testing-library/react": "^11.2.5",
         "@testing-library/react-hooks": "^5.1.0",
         "@types/jest": "^26.0.20",
