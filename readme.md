@@ -12,6 +12,8 @@
 
 _Starter for `react` libraries._
 
+// TODO: write intro section.
+
 ## 📦 Installation
 
 This package is hosted on [npm][npm].
