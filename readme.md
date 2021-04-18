@@ -1,10 +1,38 @@
 # ⚛ react library starter
 
+[![version][version-badge]][npm]
+[![downloads][downloads-badge]][npm]
+[![size][size-badge]][bundlephobia]
+[![github actions][github-actions-badge]][github-actions]
 [![coverage][codecov-badge]][codecov]
+[![typescript][typescript-badge]][typescript]
 [![contributing][contributing-badge]][contributing]
 [![contributors][contributors-badge]][contributors]
+[![discord][discord-badge]][discord]
 
 _Starter for `react` libraries._
+
+## 📦 Installation
+
+This package is hosted on [npm][npm].
+
+```bash
+npm install @bradgarropy/react-library-starter
+```
+
+## 🥑 Usage
+
+// TODO: Write usage section.
+
+## 📖 API Reference
+
+// TODO: Write api reference section.
+
+## ❔ Questions
+
+🐛 report bugs by filing [issues][issues]  
+📢 provide feedback with [issues][issues] or on [twitter][twitter]  
+🙋🏼‍♂️ use my [ama][ama] or [twitter][twitter] to ask any other questions
 
 ## ✨ contributors
 
@@ -25,6 +53,20 @@ _Starter for `react` libraries._
 [codecov]: https://app.codecov.io/gh/bradgarropy/react-library-starter
 [contributing]: https://github.com/bradgarropy/react-library-starter/blob/master/contributing.md
 [contributors]: #-contributors
+[npm]: https://www.npmjs.com/package/@bradgarropy/react-library-starter
 [codecov-badge]: https://img.shields.io/codecov/c/github/bradgarropy/react-library-starter?style=flat-square
+[version-badge]: https://img.shields.io/npm/v/@bradgarropy/react-library-start.svg?style=flat-square
+[downloads-badge]: https://img.shields.io/npm/dt/@bradgarropy/react-library-start?style=flat-square
 [contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
 [contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/react-library-starter?style=flat-square
+[issues]: https://github.com/bradgarropy/react-library-starter/issues
+[twitter]: https://twitter.com/bradgarropy
+[ama]: https://bradgarropy.com/ama
+[bundlephobia]: https://bundlephobia.com/result?p=@bradgarropy/react-library-starter
+[size-badge]: https://img.shields.io/bundlephobia/minzip/@bradgarropy/react-library-starter?style=flat-square
+[github-actions]: https://github.com/bradgarropy/react-library-starter/actions
+[github-actions-badge]: https://img.shields.io/github/workflow/status/bradgarropy/react-library-starter/%F0%9F%9A%80%20release?
+[typescript]: https://www.typescriptlang.org/dt/search?search=%40bradgarropy%2Freact-library-starter
+[typescript-badge]: https://img.shields.io/npm/types/@bradgarropy/react-library-starter?style=flat-square
+[discord]: https://bradgarropy.com/discord
+[discord-badge]: https://img.shields.io/discord/748196643140010015?style=flat-square
