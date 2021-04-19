@@ -4,7 +4,7 @@ type ComponentProps = {
     name: string
 }
 
-const Component: FC<ComponentProps> = ({name = "⚛ react library starter"}) => {
+const Component: FC<ComponentProps> = ({name}) => {
     return <p>{name}</p>
 }
 
