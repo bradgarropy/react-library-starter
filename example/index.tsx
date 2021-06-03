@@ -1,10 +1,6 @@
-import * as React from "react"
-import * as ReactDOM from "react-dom"
+import React from "react"
+import ReactDOM from "react-dom"
 
-import Component from "../src"
-
-const App = () => {
-    return <Component name="Brad Garropy" />
-}
+import App from "./App"
 
 ReactDOM.render(<App />, document.getElementById("root"))
