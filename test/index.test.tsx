@@ -1,11 +1,8 @@
-import * as React from "react"
-import * as ReactDOM from "react-dom"
+import {render} from "@testing-library/react"
+import React from "react"
 
 import Component from "../src"
 
 test("renders", () => {
-    const div = document.createElement("div")
-
-    ReactDOM.render(<Component name="Brad Garropy" />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    render(<Component name="Brad Garropy" />)
 })
