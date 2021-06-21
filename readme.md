@@ -67,7 +67,7 @@ npm install @bradgarropy/react-library-starter
 [bundlephobia]: https://bundlephobia.com/result?p=@bradgarropy/react-library-starter
 [size-badge]: https://img.shields.io/bundlephobia/minzip/@bradgarropy/react-library-starter?style=flat-square
 [github-actions]: https://github.com/bradgarropy/react-library-starter/actions
-[github-actions-badge]: https://img.shields.io/github/workflow/status/bradgarropy/react-library-starter/%F0%9F%9A%80%20release?
+[github-actions-badge]: https://img.shields.io/github/workflow/status/bradgarropy/react-library-starter/%F0%9F%9A%80%20release?style=flat-square
 [typescript]: https://www.typescriptlang.org/dt/search?search=%40bradgarropy%2Freact-library-starter
 [typescript-badge]: https://img.shields.io/npm/types/@bradgarropy/react-library-starter?style=flat-square
 [discord]: https://bradgarropy.com/discord
