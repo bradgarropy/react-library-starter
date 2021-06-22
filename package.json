@@ -3,11 +3,11 @@
     "version": "1.6.2",
     "description": "⚛ react library starter",
     "keywords": [
-        "javascript",
         "typescript",
         "react",
         "eslint",
         "prettier",
+        "jest",
         "starter"
     ],
     "homepage": "https://github.com/bradgarropy/react-library-starter",
