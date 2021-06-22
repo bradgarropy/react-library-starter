@@ -10,13 +10,11 @@
 [![contributors][contributors-badge]][contributors]
 [![discord][discord-badge]][discord]
 
-_Starter for `react` libraries._
-
-// TODO: write intro section.
+_Starter for [`react`][react] libraries._
 
 ## 📦 Installation
 
-This package is hosted on [npm][npm].
+This package is hosted on [`npm`][npm].
 
 ```bash
 npm install @bradgarropy/react-library-starter
@@ -72,3 +70,4 @@ npm install @bradgarropy/react-library-starter
 [typescript-badge]: https://img.shields.io/npm/types/@bradgarropy/react-library-starter?style=flat-square
 [discord]: https://bradgarropy.com/discord
 [discord-badge]: https://img.shields.io/discord/748196643140010015?style=flat-square
+[react]: https://reactjs.org
