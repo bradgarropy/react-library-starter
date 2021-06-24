@@ -1,18 +1,23 @@
 {
+    "include": ["src"],
     "compilerOptions": {
-        "allowSyntheticDefaultImports": true,
-        "target": "es5",
-        "module": "commonjs",
-        "jsx": "react",
-        "moduleResolution": "node",
-        "noImplicitAny": false,
-        "noUnusedLocals": false,
-        "noUnusedParameters": false,
-        "removeComments": true,
-        "strictNullChecks": true,
-        "preserveConstEnums": true,
+        "module": "esnext",
+        "lib": ["dom", "esnext"],
+        "importHelpers": true,
+        "declaration": true,
+        "declarationDir": "dist/types",
+        "outDir": "dist",
         "sourceMap": true,
-        "lib": ["es2015", "es2016", "dom"],
-        "types": ["node"]
+        "strict": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "moduleResolution": "node",
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": false
     }
 }

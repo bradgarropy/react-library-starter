@@ -1,6 +1,6 @@
-import React, {FC} from "react"
+import {FC} from "react"
 
-import Component from "../src"
+import Component from "../../src"
 
 const App: FC = () => {
     return <Component name="Brad Garropy" />
